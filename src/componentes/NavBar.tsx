@@ -8,18 +8,20 @@ const Navbar: React.FC = () => {
             <Link to="/" >
                 Inicio
             </Link>
-            <Link to="/usuarios" >
-                Usuarios
+            <Link to="/libros" >
+                Libros
             </Link>
-            <Link to="/departamentos">
-                Departamentos
+            <Link to="/autores">
+                Autores
             </Link>
-            <Link to="/empleados">
-                Empleados
+            <Link to="/autoreslibros">
+                AutoresLibros
+            </Link>
+            <Link to="/Perfil">
+                Acerca de
             </Link>
         </nav>
     );
 };
 
 export default Navbar;
-
